@@ -19,7 +19,7 @@
   "main": "./core/index",
   "scripts": {
     "preinstall": "node core/server/utils/npm/preinstall.js",
-    "postinstall": "grunt init",
+    "postinstall": "grunt init --force",
     "start": "node index",
     "test": "grunt validate --verbose"
   },
